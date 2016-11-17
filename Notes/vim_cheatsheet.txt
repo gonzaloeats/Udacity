@@ -1,0 +1,38 @@
+#              _                         _            
+#       __   _(_)_ __ ___    _ __   ___ | |_ ___  ___ 
+#       \ \ / / | '_ ` _ \  | '_ \ / _ \| __/ _ \/ __|
+#        \ V /| | | | | | | | | | | (_) | ||  __/\__ \
+#         \_/ |_|_| |_| |_| |_| |_|\___/ \__\___||___/
+#
+#       				 
+##########################################################################
+
+:how to conver tabs in to spaces
+:se expandtab 
+:retab
+
+How to increment numbers
+ctrl x increments down
+ctrl a increments up
+How to insert special symbols /digraphs
+:dig
+insert
+ctrl+k
+type the patter characters
+how to print out the command you would write in terminal 
+:r! command 
+example:
+    :r! pwd #this should print out the working directory
+    
+/home/g/Documents/Udacity/Notes
+
+how to insert a character at the beginning of multiple lines
+
+1. Select all 4 row lines of block by pressing V and then j 4 times.
+2. Indent with >
+3. Go back one letter with h.
+4. Go to block visual mode with ctrl v.
+5. Select down 4 rows by pressing j 4 times...
+6. Press c ...
+7. Type out a "vendor_" without the quote...
+8. Press escape.
